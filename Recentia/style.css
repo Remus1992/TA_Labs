@@ -1,0 +1,113 @@
+/* General */
+body, html {
+    margin: 0;
+    background-color: lightgreen;
+}
+
+h1, a {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+h1 {
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.recentia_header {
+    text-align: center;
+    height: 90px;
+
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 100, 0, 1), rgba(0, 100, 0, 0) 80%);
+}
+
+/* Search online */
+
+/* Search Bar */
+.recentia_search_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#search_bar {
+    -webkit-appearance: none;
+    height: 33px;
+    width: 100%;
+    /*border: 1px #d1d1d1 solid;*/
+    border: none;
+    padding-left: 38px;
+    box-shadow: inset 0px 0px 0px 1px #d1d1d1;
+    background-image: url(search_icon.png);
+    background-repeat: no-repeat;
+    background-size: 34px;
+    border-radius: 5px;
+}
+
+.search_button {
+    -webkit-appearance: none;
+    /*background: -webkit-linear-gradient(rgb(221, 221, 221) 50%, rgb(204, 204, 204));*/
+    border: none;
+    /*box-shadow: inset 0px 0px 0px 1px #d1d1d1;*/
+    height: 33px;
+    margin-left: -1px;
+}
+
+#search_img {
+    width: 25px;
+}
+
+/* Search Row */
+.recentia_search_wrapper {
+    height: 35px;
+    width: 50%;
+    margin: auto auto 30px auto;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background-color: #d69f9f;*/
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    /*padding: 0 20px;*/
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.recentia_search_row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+}
+
+.recentia_search_box {
+
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.recentia_search_box a {
+    color: black;
+    background-color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.recentia_search_box a:hover,
+.recentia_search_box a:active,
+.recentia_search_box a.active {
+    background-color: gray;
+    border-bottom: 4px solid #40A4C8;
+    color: black;
+}
